@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/confirmation/confirmation.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="confirmation-container">
+
+        <div class="row">
+            <div class="col">
+                <h1 class="text-h1">Confirmación de asistencia</h1>
+
+                <p class="text-p">Entendemos que hay situaciones externas y lamentamos no poder contar con tu presencia, pero sabemos que tenemos
+                    tus mejores deseos y te agradecemos por ello.
+                </p>
+
+                <form action="/makeNoConfirmation" method="post">
+                    <input type="text" name="family" required placeholder="familia">
+                    <input type="number" inputmode="numeric" name="members" required placeholder="numero de integrantes">
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Mensaje para los novios"></textarea>
+                    <button type="submit" >Enviar</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h2 class="text-h2"><%= thanks %></h2>
+                
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2023 by Joel Lozano</p>
+    </footer>
+
+</body>
+
+</html>

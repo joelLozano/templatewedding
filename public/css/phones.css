@@ -1,0 +1,179 @@
+
+@media screen and (max-width: 480px) {
+    .maintextCursive {
+        font-size: 65px;
+    }
+    .textCursive {
+        font-size: 55px;
+    }
+
+    .date div h1 {
+        font-size: 35px;
+    }
+
+    .time-container {
+        width: 100%;
+    }
+
+    .time-container div {
+        width: 90px;
+    }
+    .time-container div .textTime{
+        font-size: 20px;
+    }
+    .time-container .circle {
+        margin: 10px 5px 5px 8px;
+        font-size: 30px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .hotelItems {
+        width: 80%;
+        margin-bottom: 20px;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        height: 180px;
+    }
+
+    .instruccion-address {
+        font-size: 18px;
+    }
+    .place-container {
+        height: 100vh;
+        margin-bottom: 0px;
+    }
+
+    .place-container-columns .card{
+        flex-direction: column;
+    }
+    .cardImage{
+        width: 100%;
+    }
+    .cardColum1 {
+        width: 100%;
+    }
+    .confirmation {
+        margin-top: 100px;
+        flex-direction: column;
+        margin-bottom: 120px;
+    }
+    .confirmation div h4{
+        font-family: 'Dancing Script', cursive;
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .confirmation div img {
+        width: 80%;
+    }
+    .confirmation div {
+        width: 100%;
+        text-align: center;
+    }
+    .confirmation div p {
+        margin-top: 10px;
+        text-align: justify;
+        letter-spacing: 0;
+        font-size: 20px;
+    }
+    .confirmation div button {
+        margin-top: 10px;
+        width: 80%;
+        height: 40px;        
+        padding: 10px;
+        border: 1px solid #595D48;
+        border-radius: 8px;
+        color:  #595D48;
+        background-color: #EFE2D4;
+        text-align: center;
+    }
+
+    .confirmation div button:active {
+        background-color: #595D48;
+        color: white;
+    }
+
+    .textCursive-right {
+        font-size: 55px;
+    }
+
+    .instructions-container {
+        height: auto;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 130px;
+    }
+
+    .instruccion-secondText {
+        font-size: 23px;
+    }
+
+    .instruccion-titleText{
+        font-size: 20px;
+    }
+
+.ml-icon {
+    margin-right: 6px;
+}
+
+.row-recomendaciones {
+    width: 100%;
+    
+}
+
+.row-recomendaciones .col {
+    width: 90%;
+    margin: auto;
+}
+
+.card-recomendations {
+    width: 100%;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 16px;
+    height: auto;
+}
+
+
+
+.card-recomendations div {
+    margin-top: 15px;
+}
+
+.container-gifts {
+    height: auto;
+}
+
+.container-gifts p {
+    width: 80%;
+}
+
+.playlist-icon{
+    width: 250px;
+}
+  
+.gallery-container{
+    width: 95%;
+}
+
+.itinerario-container {
+    margin-top: 20px;
+    height: 100vh;
+}
+
+.itinerario-container-title {
+    margin-bottom: 20px;
+}
+
+.gallery-container {
+    height: auto;
+    margin-bottom: 50px;
+  }
+
+  .container-spotify {
+    height: 60vh;
+  }
+}
+

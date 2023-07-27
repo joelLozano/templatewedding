@@ -1,0 +1,58 @@
+@media screen and (max-width: 370px){
+    .time-container div {
+        width: 70px;
+    }
+
+    .maintextCursive {
+        font-size: 50px;
+    }
+
+    .hotelItems {
+        margin-top: 20px;
+        width: 80%;
+    }
+
+    .time-container div .textTime{
+        font-size: 18px;
+    }
+    .time-container .circle {
+        margin: 10px 5px 8px 5px;
+        font-size: 30px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .confirmation{
+        margin-bottom: 250px;
+    }
+
+    .container-gifts {
+        height: auto;
+    }
+
+    .container-gifts p {
+        width: 80%;
+    }
+
+    .playlist-icon{
+        width: 200px;
+    }
+
+    .gallery-container{
+        width: 90%;
+    }
+
+    .itinerario-container {
+        margin-top: 50px;
+        height: 100vh;
+    }
+    
+    .itinerario-container-title {
+        margin-bottom: 50px;
+    }
+
+    .card-recomendations {
+        height: auto;
+    }
+
+}

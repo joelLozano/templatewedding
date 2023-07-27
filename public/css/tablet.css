@@ -1,0 +1,68 @@
+@media screen and (max-width: 798px) {
+    .textCursive {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        font-size: 60px;
+    }
+
+    .textTime {
+        font-size: 40px;
+    }
+
+    .time-container div {
+        width: 130px;
+    }
+    .time-container .circle {
+        margin: 10px 10px 5px 10px;
+        font-size: 30px;
+        width: 100px;
+        height: 100px;
+    }
+    .time-container div .textTime{
+        font-size: 25px;
+    }
+
+    .hotelItems {
+        width: 33%;
+        height: 250px;
+    }
+
+    .place-container {
+        height: 100vh;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .instructions-container {
+        height: auto;
+    }
+
+    .confirmation {
+        margin-bottom: 180px;
+    }
+
+    .cardDescription {
+        font-size: 20px;
+    }
+
+    .cardAdress-columns {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .instruccion-address {
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 22px;
+    }
+
+    .instructions-flex {
+        margin: 0;
+        width: 100%;
+    }
+
+    .card-recomendations {
+        width: 60%;
+    }
+
+    
+    
+}

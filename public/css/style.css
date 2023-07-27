@@ -1,0 +1,633 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ourWedding{
+    display: block;
+    font-size: 50px;
+    color: #595D48;
+
+}
+.maintextCursive {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+}
+
+.mainButton {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #595D48;
+    border-radius: 8px;
+    color:  #595D48;
+    background-color: #EFE2D4;
+    text-align: center;
+}
+
+.mainButton:hover {
+    background-color: #595D48;
+    color: white;
+}
+
+.textCursive {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+}
+
+.description {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-style: italic;
+}
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/fondoT.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #595D48;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  .animacion-fade {
+    opacity: 0; /* Inicia con opacidad cero (invisible) */
+    animation: fade-down 1.5s ease-in-out forwards;
+  }
+
+  .row-recomendaciones {
+    width: 100%;
+  }
+  .row-recomendaciones .col{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  @keyframes fade-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px); /* Inicia 50px arriba de la posición final */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* Llega a la posición final */
+    }
+  }
+.main-container p {
+    font-size: 30px;  
+}
+
+.main-container i {
+    position: relative;
+    bottom: 2px;
+}
+
+.date{
+    height: 50vh;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.date div {
+    margin-top: 20px;
+}
+
+.date div h1 {
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.date div .day {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+}
+
+.time-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-container div {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textTime {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+}
+.time-container .circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+/* donde y cuando */
+
+.place-container {
+    margin: auto;
+    max-width: 1200px;
+    height: 100vh;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.place-container-columns {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    margin-top: 50px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: row;
+}
+
+.cardImage{
+    border-radius: 10px;
+    width: 50%;
+}
+.cardColum1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardTitle{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+.cardSubTitle{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: bold;
+    color: gray;
+}
+
+.cardDescription{
+    padding: 30px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: rgb(50, 50, 50);
+    text-align: justify;
+}
+.cardColum1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardButton {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 50%;
+    padding: 10px;
+    border-radius: 8px;
+    color:  #595D48;
+    background-color: #EFE2D4;
+    text-align: center;
+    font-size: 18px;
+}
+
+.cardButton:hover {
+    background-color: #595D48;
+    color: white;
+}
+
+.cardAdress-columns{
+    align-self: flex-start;
+    margin-top: 5px;
+    margin-left: 30px;
+    color: gray;
+    font-size: 12px;
+}
+
+.cardAdress-columns span{
+    font-size: 18px;
+    margin-left: 5px;
+}
+/* diveder-container */ 
+.diveder-container {
+    margin: 40px 0px 30px 0px;
+    width: 100%;
+    height: 150px;
+    background-color: antiquewhite;
+}
+.diveder-container p {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+
+/* instructions sections  */
+
+.instructions-container {
+    margin: auto;
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.resume {
+    padding-top: 10px;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.textCursive-right {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 75px;
+    margin-bottom: 10px;
+}
+
+.instruccion-header{
+    margin: auto;
+    max-width: 1200px;
+    margin-bottom: 50px;
+}
+
+.instructions-flex {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    max-width: 1200px;
+}
+
+.hotelItems {
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.hotelItems-header {
+    margin-bottom: 15px;
+}
+.hotelItems i{
+    margin-right: 10px;
+}
+.hotelItems p{
+    margin: 0px 0px 20px 10px;
+}
+
+.hotelItems-button {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.instruccion-titleText {
+    font-size: 30px;
+}
+
+.mt-2 { 
+    margin-top: 20px;
+}
+
+.instruccion-secondText {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;
+}
+
+.instruccion-address {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+}
+
+.confirmation {
+    margin: auto;
+    max-width: 1200px;
+    width: 100%;
+    margin-bottom: 150px;
+}
+.confirmation div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirmation div img {
+    width: 55%;
+}
+
+.confirmation div h4 {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.confirmation div p {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 75%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.confirmation div button {
+    margin: auto;
+    width: 50%;
+    display: block;
+    padding: 10px;
+    margin-top: 15px;
+    height: 55px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #595D48;
+    border-radius: 8px;
+    color:  #595D48;
+    background-color: #EFE2D4;
+    text-align: center;
+}
+
+.confirmation div button:hover {
+    background-color: #595D48;
+    color: white;
+}
+
+
+.container-recomendations {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+
+.container-recomendations .container-recomendations-subtitle {
+    width: 65%;
+    text-align: justify;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 17px;
+}
+
+.container-recomendations-title {
+    width: 35%;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.ml-icon {
+    margin-right: 6px;
+}
+
+.card-recomendations {
+    margin: 10px;
+    width: 40%;
+    height: 200px;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: left;
+}
+
+.card-recomendations-title {
+    color: #595D48;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.container-recomendations-subtitle{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 18px;
+}
+
+.container-gifts {
+    height: auto;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    background-image: url('../assets/fondoT.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-gifts p {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 70%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.divider-line { 
+    margin: auto;
+    text-align: center;
+    width: 60%;
+    border: 0.1px solid #595d486c;
+}
+
+.footer {
+    margin-top: 20px;
+    padding-top: 10px;
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    background-color: antiquewhite;
+    color: #595d48c4;
+}
+
+.itinerario-container {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.itinerario-container-title {
+    margin-bottom: 150px;
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .image-container img {
+    width: 90%;
+  }
+  
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+  }
+  
+  .expanded-image {
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+    z-index: 1000;
+  }
+  
+
+.footer .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* animations */
+
+.fade-down {
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+  
+  .fade-down.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+
+  .gallery-container {
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .gallery-container .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    max-width: 800px;
+}
+
+.gallery-container .card {
+    position: relative;
+    left: 0px;
+    width: 80px;
+    border-radius: 16px;
+    height: 560px;
+    overflow: hidden;
+    background-color: var(--background);
+    transition: 0.4s ease-in-out;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
+    flex: 0.25;
+}
+
+.gallery-container .card  {
+    height: 460px;
+    background-image: url('../assets/p.JPG');
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery-container .card:hover {
+    flex: 2;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.container-spotify {
+    margin: auto;
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 150px;
+}
+
+.container-spotify-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-spotify-title {
+    margin-bottom: 150px;
+}
+
+.music-player img {
+    width: 70px;
+}
+
+.playlist-icon{
+    width: 400px;
+}
