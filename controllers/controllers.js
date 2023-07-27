@@ -1,4 +1,4 @@
-import familyModel from "../models/family_model.js";
+import FamilyModel from "../models/family_model.js";
 import FamilyNCModel from "../models/family_no_confirmation_model.js";
 
 const index = (req, res) => {
@@ -17,26 +17,23 @@ const geetConfirmation = async (req, res) => {
 const makeConfirmation = (req, res) => {
     const { family , members, message} = req.body;
 
-    const previusFamily = familyModel.findOne({family: family});
-    const previusFamilyNC = FamilyNCModel.findOne({family: family});
-    
-    if (previusFamily) {
-        let thanks = "Ya confirmaste tu asistencia previamente, gracias"
-        res.render('thanks', {thanks});
-    } else if (previusFamilyNC) {
-        let thanks = "Ya habias confirmado tu asistencia, gracias"
-        res.render('thanks', {thanks});
-    } else {
-        const newFamily = new familyModel({ family, members, message });
-    const thanks = "¡Te esperamos!"
-    newFamily.save()
-    .then(() => {
-         return res.render('thanks', {thanks});
+    const isExist = FamilyModel.findOne({ family: family }).exec()
+    .then((doc) => {
+        if (doc) {
+            let thanks = "Ya confirmaste tu asistencia previamente, gracias"
+            res.render('thanks', {thanks});
+        } else {
+            const newFamily = new FamilyModel({ family, members, message });
+            const thanks = "¡Te esperamos!"
+            newFamily.save()
+            .then(() => {
+                return res.render('thanks', {thanks});
+            })
+            .catch((err) => {
+                console.log(err);
+            });
+        }
     })
-    .catch((err) => {
-        console.log(err);
-    });
-    }
 }
 
 const noConfirmation = (req, res) => {
