@@ -6,6 +6,6 @@ const familySchema = new Schema({
     message: { type: String, required: false }
 });
 
-const FamilyModel = mongoose.model("familiestest", familySchema);
+const FamilyModel = mongoose.model("familiestests", familySchema);
 
 export default FamilyModel;
