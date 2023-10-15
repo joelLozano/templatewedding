@@ -1,30 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
 
+.imageProfile {
+    border-radius: 50%;
+    width: 20%;
+    margin-bottom: 10px;
+}
+
 .ourWedding{
     display: block;
-    font-size: 50px;
-    color: #595D48;
+    font-size: 90px;
+    color: #383838;
+    font-family: 'Dancing Script', cursive;
 
 }
 .maintextCursive {
     text-align: center;
-    font-family: 'Dancing Script', cursive;
-    font-size: 100px;
+    font-family: 'Kalam', cursive;
+    font-size: 90px;
 }
 
+.cursiveText {
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    font-size: 22px;
+}
 .mainButton {
     margin-top: 10px;
     padding: 10px;
     border: 1px solid #595D48;
     border-radius: 8px;
-    color:  #595D48;
-    background-color: #EFE2D4;
+    color:  #383838;
+    background-color: #d4e5ef;
     text-align: center;
 }
 
@@ -50,10 +64,10 @@
 .main-container {
     width: 100vw;
     height: 100vh;
-    background-image: url('../assets/fondoT.png');
+    background-image: url('../assets/fond01.png');
     background-repeat: no-repeat;
     background-size: cover;
-    color: #595D48;
+    color: #383838;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -144,11 +158,26 @@
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    background-color: antiquewhite;
+    background-color: rgb(215, 238, 250);
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 50px;
+}
+
+.ouners{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ouners div {
+    text-align: center;
+    width: 100%;
+}
+
+.divisorLine {
+    border-right: 1.3px solid #5a909f;
 }
 
 /* donde y cuando */
@@ -178,10 +207,10 @@
 
 .cardImage{
     border-radius: 10px;
-    width: 50%;
+    width: 40%;
 }
 .cardColum1{
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -363,7 +392,7 @@
 }
 
 .confirmation div img {
-    width: 55%;
+    width: 20%;
 }
 
 .confirmation div h4 {
@@ -489,8 +518,8 @@
     margin: auto;
     width: 100%;
     height: 50px;
-    background-color: antiquewhite;
-    color: #595d48c4;
+    background-color: rgb(215, 238, 250);
+    color: #090909c4;
 }
 
 .itinerario-container {
@@ -544,6 +573,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.lineIntermedia {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 100px;
+    background-color: rgb(215, 238, 250);
 }
 
 /* animations */

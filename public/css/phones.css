@@ -1,5 +1,29 @@
 
 @media screen and (max-width: 480px) {
+
+    .imageProfile {
+        border-radius: 50%;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .ouners{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ouners div p {
+        font-size: 22px
+    };
+
+    .ouners div {
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    
+
     .maintextCursive {
         font-size: 65px;
     }
@@ -41,11 +65,11 @@
         font-size: 18px;
     }
     .place-container {
-        height: 100vh;
         margin-bottom: 0px;
     }
 
     .place-container-columns .card{
+        height: auto;
         flex-direction: column;
     }
     .cardImage{
@@ -55,7 +79,7 @@
         width: 100%;
     }
     .confirmation {
-        margin-top: 100px;
+        margin-top: 300px;
         flex-direction: column;
         margin-bottom: 120px;
     }
@@ -174,6 +198,10 @@
 
   .container-spotify {
     height: 60vh;
+  }
+
+  .divisorLine {
+    margin-bottom: 30px;
   }
 }
 

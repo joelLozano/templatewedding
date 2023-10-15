@@ -1,4 +1,4 @@
-var fechaObjetivo = new Date('2023-09-09');
+var fechaObjetivo = new Date('2023-11-11');
 
 function actualizarContador() {
     // Fecha actual
@@ -62,4 +62,3 @@ function actualizarContador() {
     overlay.style.display = 'none';
     document.body.style.overflow = 'auto';
   }
-  
