@@ -28,7 +28,6 @@
     }
 
     .place-container {
-        height: 100vh;
         margin-top: 100px;
         margin-bottom: 100px;
     }
@@ -61,6 +60,19 @@
 
     .card-recomendations {
         width: 60%;
+    }
+
+    .imageProfile {
+        border-radius: 50%;
+        width: 70%;
+        margin-bottom: 10px;
+    }
+
+    .confirmation {
+        margin: auto;
+        max-width: 1200px;
+        width: 100%;
+        margin-bottom: 0px;
     }
 
     
